@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #dad7cd;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    background-color: #344e41;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo a {
+    color: #dad7cd;
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive, sans-serif;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links li {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.nav-links a {
+    color: #dad7cd;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 40px;
+}
+
+.home {
+    background-color: #a3b18a;
+    padding: 120px 0 0 0;
+}
+
+.home h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 3.5rem;
+}
+
+.home p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    padding: 30px;
+    text-align: justify;
+}
+
+.home-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px 50px 30px;
+
+}
+
+.home-img img {
+    width: 30%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.reservation {
+    background-color: #588157;
+    padding: 80px 0 20px 0;
+}
+
+.reservation h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 3.5rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: justify;
+}
+
+hr {
+    visibility: hidden;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+input[type=text],
+input[type=number],
+input[type=email] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type=radio] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.radiobtn label {
+    display: block;
+    margin-right: 10px;
+}
+
+.registerbtn {
+    background-color: #52b788;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.registerbtn:hover {
+    background-color: #b7e4c7;
+}
+
+
+
+
+.about {
+    background-color: #3a5a40;
+    padding: 80px 0 0 0;
+}
+
+.about h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 3.5rem;
+    color: #dad7cd;
+    padding: 20px;
+}
+
+.about h3 {
+    text-align: justify;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 1.5rem;
+    color: #dad7cd;
+    padding-left: 20px;
+}
+
+.about p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: justify;
+    color: #dad7cd;
+}
+
+.about-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 30px 0 30px;
+}
+
+.about-img img {
+    width: 30%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.about li {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: justify;
+    color: #dad7cd;
+}
+
+.staff {
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.staff img {
+    width: 30%;
+    max-width: 100%;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.staff p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#staff {
+    padding-bottom: 40px;
+}
+
+.contact {
+    background-color: #dad7cd;
+    padding: 60px;
+}
+
+.contact h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 3.5rem;
+    padding-bottom: 40px;
+}
+
+.contact p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .nav-links a {
+        color: #dad7cd;
+        font-size: 1.2rem;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 0 10px;
+    }
+
+}
